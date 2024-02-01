@@ -1,0 +1,29 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btnContainer {
+    text-align: center;
+}
+
+.buttons {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    cursor:pointer;
+    border-radius: 0.2em;
+    transition: background-color 0.25s;
+    text-decoration: none;
+    box-shadow: 0;
+}
+
+.buttons:hover {
+    background-color: rgb(143, 140, 137);
+}
